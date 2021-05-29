@@ -1,5 +1,7 @@
 $(document).ready(function () {
-
+    
+    
+    //스크롤 시 메뉴바 색상 변경
     $(function () {
         var $header = $('header');
         var $page = $('header');
@@ -20,6 +22,44 @@ $(document).ready(function () {
         });
     });
 
+    
+    
+    
+    
+    
+    
+    //햄버거 토글    
+    $(".hamburger").click(function(){
+          
+        $(".moblie-nav-wrap").addClass('active');
+
+    });
+    
+    $(".moblie-nav-wrap > .r-wrap > .X-btn,.moblie-nav-wrap > .r-wrap ").click(function(){
+          
+        $(".moblie-nav-wrap").removeClass('active');
+
+    });
+    
+    
+    //햄버거 안 메뉴    
+    $(".moblie-nav-wrap > .l-wrap > .moblie-nav > ul > li").click(function () {
+
+        if ($(this).hasClass("active") == true) {
+            $(this).removeClass("active");
+        } else if ($(this).hasClass("active") == false) {
+
+            $(".moblie-nav-wrap > .l-wrap > .moblie-nav > ul > li").removeClass("active");
+            $(this).addClass("active");
+        }
+    });
+    
+    
+    
+    
+    
+    
+    
 
 
     //메인 슬라이드
@@ -36,6 +76,18 @@ $(document).ready(function () {
         },
 
     });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     //2번째 슬라이드
     var swiperslide = new Swiper('.swiper-container.slide02', {
@@ -107,6 +159,18 @@ $(document).ready(function () {
         }
     });
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     //3번째 슬라이드
@@ -161,6 +225,12 @@ $(document).ready(function () {
 
 
 
+    
+    
+    
+    
+    
+    
 
     //section05 탭 메뉴    
     $("section05 > .item-wrap > .btn-wrap > div").click(function () {
