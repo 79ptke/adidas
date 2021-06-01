@@ -1871,12 +1871,6 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
 
     /*main-slide-wrap (1720px)*/
 
-    .main-slide-wrap {
-        width: 100%;
-        height: 80vh;
-        position: relative;
-    }
-    
     .main-slide-wrap > .swiper-container > .swiper-wrapper > .slide01 > .text > .txt-wrap > .txt-box > .time-line-wrap {
         margin-left: 0;
     }
@@ -1904,6 +1898,14 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
 
 
 @media screen and (max-width: 1440px) {
+    
+    /*main-slide-wrap (1440px)*/
+
+    .main-slide-wrap {
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
 
     /*.section01 > .best-seller-wrap (1440px)*/
     .section01 > .best-seller-wrap > .best-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide {
@@ -2776,6 +2778,14 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
     .main-slide-wrap {
         height: 998px;
     }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:first-child {
+        font-size: 70px;
+    }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:nth-child(2) {
+        font-size: 30px;
+    }
 
     /* .section01 > .best-seller-wrap (768px)*/
 
@@ -2945,7 +2955,20 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
         background-image: url(../img/main-img3-580.jpg);
     }
     
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text {
+        padding: 0 20px;
+    }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:first-child {
+        font-size: 60px;
+    }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:nth-child(2) {
+        margin-top: 20px;
+        font-size: 25px;
+    }
 
+    
     /*.section01 > .best-seller-wrap (580px)*/
 
     .section01 > .best-seller-wrap > .txt-wrap > p:first-child {
@@ -3081,6 +3104,10 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
     .section05 > .item-wrap > .contents-wrap > div > .box:nth-child(6) {
         display: none;
     }
+    
+    .section05 > .item-wrap > .contents-wrap > div > .box > .txt-wrap > p {
+        font-size: 14px;
+    }
 
     /*.section06 > .adidas-info-wrap (768px)*/
 
@@ -3115,6 +3142,15 @@ footer > .footer-wrap > .footer-info > ul > li:first-child {
 
     .main-slide-wrap {
         height: 630px;
+    }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:first-child {
+        font-size: 40px;
+    }
+    
+    .main-slide-wrap > .swiper-container > .swiper-wrapper > .swiper-slide > .text > .txt-wrap > .txt-box > p:nth-child(2) {
+        margin-top: 15px;
+        font-size: 16px;
     }
     
     /* .section02 > .impossible-wrap (400px)*/
