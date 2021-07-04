@@ -1,7 +1,5 @@
 $(document).ready(function () {
 
-
-
     //햄버거 토글    
     $(".hamburger").click(function () {
 
@@ -28,14 +26,10 @@ $(document).ready(function () {
         }
     });
 
-
-
-
-
-
-
-
-
+    
+    
+    
+    
     //메인 슬라이드
     var myswiper = new Swiper('.mySwiper', {
 
@@ -52,11 +46,10 @@ $(document).ready(function () {
 
     });
 
-
-
-
-
-
+    
+    
+    
+    
     //2번째 슬라이드
     var swiperslide = new Swiper('.swiper-container.slide02', {
 
@@ -84,12 +77,13 @@ $(document).ready(function () {
                 spaceBetween: 20,
             },
         }
-
-
-
+        
     });
-
-
+    
+    
+    
+    
+    
     //3번째 슬라이드
     function SliderBox1__init() {
         $(".sports-slider-box-1 > .sports-photo").slick({
@@ -114,14 +108,10 @@ $(document).ready(function () {
 
     SliderBox1__init();
 
-
-
-
-
-
-
-
-
+    
+    
+    
+    
     //section05 탭 메뉴    
     $(".section05 > .item-wrap > .btn-wrap > div").click(function () {
 
@@ -135,11 +125,6 @@ $(document).ready(function () {
         $(".section05 > .item-wrap > .contents-wrap > div").eq(contents).addClass("on");
 
     });
-    
-    
-    
-    
-    
     
     
     
@@ -161,9 +146,5 @@ $(document).ready(function () {
         }, 500);
         return false;
     });
-
-
-
-
 
 });
